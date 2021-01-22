@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .header {
   background-color: grey;
 }
@@ -9,11 +14,12 @@
 .followers-column {
   background-color: aquamarine;
   width: 500px;
-  height: 800;
+  height: 800px;
 }
 
 .feed {
   background-color: blue ;
+  width: 500px;
 }
 
 .suggested-box {
