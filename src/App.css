@@ -156,6 +156,79 @@ button {
 }
 
 
+/* Styling for Card Components */
+.card {
+    border-bottom: 1px solid #e3e3e4;
+    width: 500px;
+    height: 600px;
+}
+
+.minicard {
+    margin: 10px 0 0 0;
+    justify-content: space-between;
+}
+
+.microcard {
+    margin: 10px 0 0 0;
+}
+
+.user-profile {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.social-tag {
+    margin: 0 20px 0 5px;
+}
+
+.video {
+    width: 270px;
+    border-radius: 15px;
+    margin-left: 70px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    width: 412px;
+}
+
+.username {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socials {
+    margin-left: 70px;
+}
+
+.follow-button {
+    border: 1px solid #412cfe;
+    border-radius: 3px;
+    width: 88px;
+    height: 16px;
+    color:#412cfe;
+    font-weight: 600;
+    padding: 2px 0 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.followed-button {
+    border: 1px solid #e3e3e4;
+    border-radius: 3px;
+    width: 88px;
+    height: 16px;
+    font-weight: 600;
+    padding: 2px 0 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
 /* Styling for FollowersColumn Component */
 .followers-column {
     min-width: 230px;
